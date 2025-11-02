@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.addBtn {
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
